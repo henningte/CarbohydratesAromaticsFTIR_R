@@ -1,6 +1,15 @@
 # FTIRbaselines
 Processes FTIR spectra of natural organic matter by finding exact peak locations, baseline-correcting the peaks, and converting them to relative abundances.
 
+## Modifications
+This is a modified version of the original script by Suzanne Hodgkins and Florida State University. Modifications were done by Henning Teickner (contact: h_teic01@wwu.de). 
+
+The modifications ensure that non-integer valued wavenumbers of IR spectra can be processed by linearly interpolating the absorbance values for integer valued wavenumbers. Modified parts are introduced by # "MODIFIED START" and the end of modified parts is marked with # "MODIFIED END" throughout the script. 
+
+For modified parts, the copyright is © 2018 Henning Teickner and they are free under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. The modified parts and the rest of the program are distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.
+
 ## Overview
 
 This script finds the exact wavenumber locations of specific peaks in FTIR spectra of natural organic matter (such as plants and peat soils). It then baseline-corrects the peaks and converts them into relative abundances (relative to the integrated area of the whole spectrum). It does this for the following peaks (approx. wavenumbers in cm^-1):
@@ -21,7 +30,7 @@ Hodgkins S. B., Tfaily M. M., McCalley C. K., Logan T. A., Crill P. M., Saleska 
 
 ## Licensing
 
-Copyright © 2017 Suzanne Hodgkins and Florida State University.
+Copyright: © 2017 Suzanne Hodgkins and Florida State University.
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
