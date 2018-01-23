@@ -2,7 +2,7 @@
 Processes FTIR spectra of natural organic matter by finding exact peak locations, baseline-correcting the peaks, and converting them to relative abundances.
 
 ## Modifications
-This is a modified version of the original script by Suzanne Hodgkins and Florida State University. Modifications were done by Henning Teickner (contact: h_teic01@wwu.de). 
+This (file: FTIRbaselines_1) is a modified version of the original script (file: FTIRbaselines.R) by Suzanne Hodgkins and Florida State University. Modifications were done by Henning Teickner (contact: h_teic01@wwu.de). 
 
 The modifications ensure that non-integer valued wavenumbers of IR spectra can be processed by linearly interpolating the absorbance values for integer valued wavenumbers. Modified parts are introduced by # "MODIFIED START" and the end of modified parts is marked with # "MODIFIED END" throughout the script. 
 
