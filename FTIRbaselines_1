@@ -60,7 +60,7 @@ data <- read.csv(filename, header=TRUE, row.names=1)
 
 # "MODIFIED START"
 
-if(FALSE %in% (as.integer(as.numeric(row.names(data))) != as.numeric(row.names(data)))){
+if(FALSE %in% (as.integer(as.numeric(row.names(data))) == as.numeric(row.names(data)))){
 
   # Extract wavenumbers from row names
   wavenumber = as.numeric(as.character(rownames(data)))
