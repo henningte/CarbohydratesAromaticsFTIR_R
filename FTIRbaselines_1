@@ -46,8 +46,8 @@
 # Startup notice ----
 cat("FTIRbaselines: Copyright © 2017 Suzanne Hodgkins and Florida State University.
 This program is a modified version. Modifications were done by Henning Teickner (2018).
-Modified parts are introduced by # "MODIFIED START" and the end of modified parts is 
-marked with # "MODIFIED END". For modified parts, the copyright is © 2018 Henning Teickner.
+Modified parts are introduced by # MODIFIED START and the end of modified parts is 
+marked with # MODIFIED END. For modified parts, the copyright is © 2018 Henning Teickner.
 This program comes with ABSOLUTELY NO WARRANTY. This is free software, and you
 are welcome to redistribute it under the terms of the GNU General Public
 License (version 3 or later). This license is included with this program and
