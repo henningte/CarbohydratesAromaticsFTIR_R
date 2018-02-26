@@ -4,7 +4,7 @@ Processes FTIR spectra of natural organic matter by finding exact peak locations
 ## Modifications
 This (file: FTIRbaselines_1) is a modified version of the original script (file: FTIRbaselines.R) by Suzanne Hodgkins and Florida State University. Modifications were done by Henning Teickner (contact: h_teic01@wwu.de). 
 
-The modifications ensure that non-integer valued wavenumbers of IR spectra can be processed by linearly interpolating the absorbance values for integer valued wavenumbers. Modified parts are introduced by # "MODIFIED START" and the end of modified parts is marked with # "MODIFIED END" throughout the script. 
+The modifications ensure that non-integer valued wavenumbers of IR spectra and integer valued wavenumbers of IR spectra that are not spaced by values of one can be processed by linearly interpolating the absorbance values for integer valued wavenumbers. Modified parts are introduced by # "MODIFIED START" and the end of modified parts is marked with # "MODIFIED END" throughout the script. 
 
 For modified parts, the copyright is © 2018 Henning Teickner and they are free under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. The modified parts and the rest of the program are distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
@@ -12,7 +12,7 @@ You should have received a copy of the GNU General Public License along with thi
 
 ## Overview
 
-This script finds the exact wavenumber locations of specific peaks in FTIR spectra of natural organic matter (such as plants and peat soils). It then baseline-corrects the peaks and converts them into relative abundances (relative to the integrated area of the whole spectrum). It does this for the following peaks (approx. wavenumbers in cm^-1):
+This script finds the exact wavenumber locations of specific peaks in FTIR spectra of natural organic matter (such as plants and peat soils). It then baseline-corrects the peaks and converts them into relative abundances (relative to the integrated area of the whole spectrum). It does this for the following peaks (approx. wavenumbers in cm<\sup>-1<sup>):
 
 - carb (1030): carbohydrates
 - arom15 (1510): aromatics
