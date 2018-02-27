@@ -90,7 +90,7 @@ if(FALSE %in% (as.integer(as.numeric(row.names(data))) == as.numeric(row.names(d
     # Vector for the interpolated absobances
     absorbance.new = NULL
     
-    wavenumber.new.cont2 = NULL
+    wavenumber.new.cont1 = NULL
     
     # Interpolation for each wavenumber
     for(wavenumber_i in c(2:length(wavenumber))){
