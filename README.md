@@ -1,6 +1,10 @@
 # FTIRbaselines
 Processes FTIR spectra of natural organic matter by finding exact peak locations, baseline-correcting the peaks, and converting them to relative abundances.
 
+## Current version
+
+Please have a look at [irpeat](https://github.com/henningte/irpeat) for a current implementation of the script. This repository no longer is maintained.
+
 ## Modifications
 This (file: FTIRbaselines_1) is a modified version of the original script (file: FTIRbaselines.R) by Suzanne Hodgkins and Florida State University. Modifications were done by Henning Teickner (contact: h_teic01@wwu.de). 
 
